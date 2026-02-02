@@ -3,7 +3,9 @@ Non-Authoritative Proof Surface
 This repository is a public portfolio and proof surface only.
 It is not an authoritative standard, governance source, license, product, or operational system.
 All executable artifacts contained here are illustrative only, are non-production, and do not confer governance, legal, or operational authority.
+
 Canonical authority resides exclusively upstream.
+
 **Structured Human Intelligence**  
 *Time turns behavior into infrastructure.*
 
