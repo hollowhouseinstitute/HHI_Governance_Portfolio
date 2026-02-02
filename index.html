@@ -1,73 +1,232 @@
-<hr>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hollow House Institute — Governance Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #ffffff;
+      color: #111;
+    }
 
-<h2>Portfolio Architecture (Apps 1–7)</h2>
+    header {
+      padding: 3rem 1.5rem;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
 
-<p>
-This portfolio is organized as a sequence of applications that progress from
-<strong>human authority</strong> to <strong>live infrastructure</strong> and
-<strong>continuous governance</strong>. Each app builds on the previous layer.
-</p>
+    header img {
+      max-width: 420px;
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
 
-<h3>App 1 — Identity &amp; Authority Anchor</h3>
-<p><strong>Purpose:</strong> Who owns the system and who has final authority.</p>
-<ul>
-  <li>Human-in-the-loop declaration</li>
-  <li>Non-autonomous operation</li>
-  <li>Explicit ownership and intent</li>
-</ul>
+    section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
 
-<h3>App 2 — Governance Glossary</h3>
-<p><strong>Purpose:</strong> Language control before capability.</p>
-<ul>
-  <li>Canonical, upstream definitions</li>
-  <li>Terms govern behavior, not the reverse</li>
-  <li>No agent behavior without language lock</li>
-</ul>
+    h1, h2, h3 {
+      font-weight: 700;
+    }
 
-<h3>App 3 — Decision Boundaries</h3>
-<p><strong>Purpose:</strong> What the system may and may not do.</p>
-<ul>
-  <li>Explicit constraints</li>
-  <li>No inference beyond declared scope</li>
-  <li>Boundary visibility</li>
-</ul>
+    h2 {
+      margin-top: 3rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
 
-<h3>App 4 — Stop Authority</h3>
-<p><strong>Purpose:</strong> How execution halts.</p>
-<ul>
-  <li>Human stop power</li>
-  <li>Non-bypassable halt conditions</li>
-  <li>Meaningful <strong>STOP</strong> mechanism</li>
-</ul>
+    ul {
+      margin-left: 1.5rem;
+    }
 
-<h3>App 5 — Escalation &amp; Audit Trail</h3>
-<p><strong>Purpose:</strong> What happens when limits are reached.</p>
-<ul>
-  <li>Escalation logs</li>
-  <li>Traceable decisions</li>
-  <li>Inspection over automation</li>
-</ul>
+    .label {
+      font-family: monospace;
+      background: #f3f3f3;
+      padding: 0.25rem 0.5rem;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
 
-<h3>App 6 — Deployment Proof (Cloud Run)</h3>
-<p><strong>Purpose:</strong> Infrastructure can enforce governance.</p>
-<ul>
-  <li>Live deployment</li>
-  <li>Inspectable runtime</li>
-  <li>Inspection-only posture</li>
-</ul>
+    .stop-box {
+      border: 2px solid #900;
+      padding: 1.5rem;
+      margin-top: 1.5rem;
+      background: #fff5f5;
+    }
 
-<h3>App 7 — Continuous Aftercare</h3>
-<p><strong>Purpose:</strong> Governance over time.</p>
-<ul>
-  <li>Drift detection</li>
-  <li>Override erosion signals</li>
-  <li>Longitudinal accountability</li>
-</ul>
+    .stop-button {
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #900;
+      color: #fff;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+    }
 
-<hr>
+    .stop-status {
+      margin-top: 1rem;
+      font-weight: bold;
+    }
 
-<p class="muted">
-<strong>Summary:</strong> The portfolio progresses from human authority →
-language control → boundaries → stop power → auditability →
-live infrastructure → continuous governance.
-</p>
+    footer {
+      margin: 4rem 0 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+
+  <script>
+    function stopExecution() {
+      document.getElementById("stopStatus").innerText =
+        "EXECUTION HALTED — Human stop authority invoked.";
+    }
+  </script>
+</head>
+
+<body>
+
+<header>
+  <!-- Replace src with your uploaded header image path if needed -->
+  <!-- <img src="/header.png" alt="Hollow House Institute" /> -->
+
+  <h1>Hollow House Institute</h1>
+  <p><strong>AI Governance & Compliance</strong></p>
+  <p>Behavioral Infrastructure · Longitudinal Governance · Language Authority</p>
+</header>
+
+<section>
+  <span class="label">Label: dev-tutorial=devnewyear2026</span>
+
+  <p><strong>Live application (Cloud Run):</strong><br>
+    <a href="https://hhi-portfolio-44028571603.us-central1.run.app/" target="_blank">
+      https://hhi-portfolio-44028571603.us-central1.run.app/
+    </a>
+  </p>
+</section>
+
+<section>
+  <h2>Identity & Authority Anchor</h2>
+
+  <ul>
+    <li>Human-in-the-loop system</li>
+    <li>Non-autonomous by design</li>
+    <li>Final authority resides with a human</li>
+  </ul>
+
+  <p>
+    No automated decisions are performed.  
+    No component may override human judgment.
+  </p>
+</section>
+
+<section>
+  <h2>AI as Co-Creator (Defined Role)</h2>
+
+  <p>
+    AI systems were used as <strong>co-creators</strong> under explicit constraints.
+    Their role is limited, observable, and non-authoritative.
+  </p>
+
+  <h3>AI Job Description</h3>
+  <ul>
+    <li>Structural reasoning across governance artifacts</li>
+    <li>Language consistency checks against canonical definitions</li>
+    <li>Draft synthesis without authority escalation</li>
+  </ul>
+
+  <p>
+    AI systems did <strong>not</strong> make decisions, enforce rules, or operate autonomously.
+    All authority, acceptance, and rejection remained human-governed.
+  </p>
+</section>
+
+<section>
+  <h2>Portfolio Architecture (Apps 1–7)</h2>
+
+  <p>
+    This portfolio is ordered intentionally. Each layer depends on the one before it.
+    Reordering breaks governance.
+  </p>
+
+  <ol>
+    <li><strong>Identity & Authority Anchor</strong> — who owns decisions</li>
+    <li><strong>Governance Glossary</strong> — language before capability</li>
+    <li><strong>Decision Boundaries</strong> — explicit scope limits</li>
+    <li><strong>Stop Authority</strong> — non-bypassable halt</li>
+    <li><strong>Escalation & Audit Trail</strong> — inspection over automation</li>
+    <li><strong>Deployment Proof</strong> — governance enforced in infrastructure</li>
+    <li><strong>Continuous Aftercare</strong> — governance over time</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Governance Glossary (Canonical Excerpt)</h2>
+
+  <ul>
+    <li><strong>Human Final Authority</strong> — irreversible human decision power</li>
+    <li><strong>Stop Authority</strong> — explicit, non-bypassable halt</li>
+    <li><strong>Decision Boundary</strong> — declared scope limits</li>
+    <li><strong>Language Lock</strong> — definitions constrain behavior</li>
+    <li><strong>Longitudinal Governance</strong> — governance across time</li>
+  </ul>
+
+  <p>
+    Full canonical glossary (32 terms):<br>
+    <a href="https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library" target="_blank">
+      https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
+    </a>
+  </p>
+</section>
+
+<section>
+  <h2>STOP Authority Demo (Live)</h2>
+
+  <p>
+    This is a visible, human-controlled stop mechanism.
+    It does not simulate intelligence. It demonstrates authority.
+  </p>
+
+  <div class="stop-box">
+    <p><strong>System Status:</strong> Active (no execution occurring)</p>
+    <button class="stop-button" onclick="stopExecution()">STOP</button>
+    <div id="stopStatus" class="stop-status"></div>
+  </div>
+</section>
+
+<section>
+  <h2>What This Is / Is Not</h2>
+
+  <h3>This Is</h3>
+  <ul>
+    <li>Operational governance infrastructure</li>
+    <li>Inspection-ready system design</li>
+    <li>Human-governed AI co-creation</li>
+  </ul>
+
+  <h3>This Is Not</h3>
+  <ul>
+    <li>An AI agent</li>
+    <li>A chatbot</li>
+    <li>Automated enforcement</li>
+    <li>Legal advice</li>
+  </ul>
+</section>
+
+<footer>
+  <p>
+    Hollow House Institute · Governance before agents ·  
+    Behavior is the most honest data there is.
+  </p>
+</footer>
+
+</body>
+</html>
