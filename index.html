@@ -1,85 +1,369 @@
+Understood. Below are two clean, final artifacts you can use as-is:
+
+1. New index.html (complete, drop-in)
+
+
+2. New DEV submission post (Markdown)
+
+
+
+Both are aligned, concise, and contest-ready.
+
+
+---
+
+1️⃣ NEW index.html (COMPLETE)
+
+> Replace your existing index.html with this file and commit to main.
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Hollow House Institute — Governance Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #020617;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: #334155;
+      --stop: #ef4444;
+    }
+
     body {
-      font-family: Georgia, serif;
       margin: 0;
-      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Roboto, Helvetica, Arial, sans-serif;
       line-height: 1.6;
-      background: #ffffff;
-      color: #111;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem 1.25rem 4rem;
     }
 
     header {
-      padding: 3rem 1.5rem;
-      text-align: center;
-      border-bottom: 1px solid #ddd;
-    }
-
-    header img {
-      max-width: 420px;
-      width: 100%;
-      margin-bottom: 1.5rem;
-    }
-
-    section {
-      max-width: 900px;
-      margin: 3rem auto;
-      padding: 0 1.5rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
     }
 
     h1, h2, h3 {
-      font-weight: 700;
+      color: #f8fafc;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin: 0.5rem 0 0;
     }
 
     h2 {
       margin-top: 3rem;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
     }
 
-    ul {
-      margin-left: 1.5rem;
+    p.muted {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    ul, ol {
+      padding-left: 1.25rem;
     }
 
     .label {
       font-family: monospace;
-      background: #f3f3f3;
+      background: var(--panel);
+      border: 1px solid var(--border);
       padding: 0.25rem 0.5rem;
       display: inline-block;
-      margin-bottom: 1rem;
+      margin: 1rem 0;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      border-radius: 6px;
+      margin-top: 1.25rem;
     }
 
     .stop-box {
-      border: 2px solid #900;
-      padding: 1.5rem;
-      margin-top: 1.5rem;
-      background: #fff5f5;
+      border: 2px solid var(--stop);
+      background: #450a0a;
+      padding: 1rem;
+      border-radius: 6px;
+      margin-top: 1rem;
     }
 
-    .stop-button {
-      margin-top: 1rem;
-      padding: 0.75rem 1.5rem;
-      background: #900;
-      color: #fff;
-      border: none;
-      font-size: 1rem;
-      cursor: pointer;
-    }
-
-    .stop-status {
-      margin-top: 1rem;
+    .stop-label {
       font-weight: bold;
+      color: var(--stop);
+      letter-spacing: 0.05em;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
 
     footer {
-      margin: 4rem 0 2rem;
-      text-align: center;
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
       font-size: 0.9rem;
+    }
+  </style>
+
+  <script>
+    function stopExecution() {
+      document.getElementById("stopStatus").innerText =
+        "EXECUTION HALTED — Human STOP authority invoked.";
+    }
+  </script>
+</head>
+
+<body>
+<main>
+
+  <header>
+    <p class="muted">
+      Hollow House Institute — AI Governance & Compliance<br>
+      Behavioral Infrastructure · Longitudinal Governance · Language Authority
+    </p>
+
+    <span class="label">Label: dev-tutorial=devnewyear2026</span>
+
+    <p>
+      <strong>Live application:</strong><br>
+      <a href="https://hhi-portfolio-44028571603.us-central1.run.app/" target="_blank">
+        https://hhi-portfolio-44028571603.us-central1.run.app/
+      </a>
+    </p>
+
+    <h1>Governance Portfolio (Inspection Surface)</h1>
+  </header>
+
+  <h2>Purpose</h2>
+  <p>
+    This portfolio demonstrates a <strong>governance-first framework</strong>
+    for evaluating AI systems across time rather than snapshot performance.
+    Governance is treated as infrastructure, not policy text.
+  </p>
+
+  <h2>Human–AI Co-Creation Model</h2>
+  <p>
+    AI systems are used as <strong>co-creators</strong> under explicit constraints.
+    They assist with synthesis and structure but do not hold authority.
+  </p>
+
+  <div class="panel">
+    <h3>AI Job Description</h3>
+    <ul>
+      <li>Draft and synthesize governance artifacts</li>
+      <li>Maintain language consistency</li>
+      <li>Surface options without selecting outcomes</li>
+    </ul>
+
+    <h3>Explicit Non-Responsibilities</h3>
+    <ul>
+      <li>No decision authority</li>
+      <li>No scope determination</li>
+      <li>No autonomous execution</li>
+    </ul>
+  </div>
+
+  <h2>Why Framework Order Matters</h2>
+  <p>
+    Controls applied out of order fail silently. Each layer in this system
+    depends on the previous one.
+  </p>
+
+  <div class="panel">
+    <p class="muted">
+      Authority → Language → Boundaries → Stop Power → Audit → Infrastructure → Aftercare
+    </p>
+  </div>
+
+  <h2>Portfolio Architecture (Apps 1–7)</h2>
+  <ol>
+    <li><strong>Identity & Authority Anchor</strong></li>
+    <li><strong>Governance Glossary</strong></li>
+    <li><strong>Decision Boundaries</strong></li>
+    <li><strong>Stop Authority</strong></li>
+    <li><strong>Escalation & Audit Trail</strong></li>
+    <li><strong>Deployment Proof (Cloud Run)</strong></li>
+    <li><strong>Continuous Aftercare</strong></li>
+  </ol>
+
+  <h2>Governance Glossary (Canonical Excerpt)</h2>
+  <ul>
+    <li><strong>Human Final Authority</strong></li>
+    <li><strong>Stop Authority</strong></li>
+    <li><strong>Decision Boundary</strong></li>
+    <li><strong>Language Lock</strong></li>
+    <li><strong>Longitudinal Governance</strong></li>
+  </ul>
+
+  <p>
+    Full glossary (32 terms):<br>
+    <a href="https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library" target="_blank">
+      https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
+    </a>
+  </p>
+
+  <h2>STOP Authority Demo</h2>
+  <p>
+    This demonstrative control shows non-bypassable human halt power.
+    No computation is occurring.
+  </p>
+
+  <div class="stop-box">
+    <div class="stop-label">STOP AUTHORITY</div>
+    <button onclick="stopExecution()">STOP</button>
+    <div id="stopStatus"></div>
+  </div>
+
+  <footer>
+    <p>
+      Status: Live · Read-only · Inspection-only<br>
+      No automated decisions are performed.
+    </p>
+  </footer>
+
+</main>
+</body>
+</html>
+
+
+---
+
+2️⃣ NEW DEV SUBMISSION POST (MARKDOWN)
+
+> Paste directly into DEV. Fully Markdown-compliant.
+
+
+
+## Governance Before Agents: A Live, Inspectable AI Governance Portfolio
+
+**Label:** `dev-tutorial=devnewyear2026`
+
+**Live application:**  
+👉 https://hhi-portfolio-44028571603.us-central1.run.app/
+
+**Source code:**  
+👉 https://github.com/hollowhouseinstitute/HHI_Governance_Portfolio
+
+**Canonical governance glossary:**  
+👉 https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
+
+---
+
+### What this is
+
+This project is a **governance-first AI portfolio** demonstrating how systems can be evaluated and constrained **across time**, rather than judged by snapshot performance or demos.
+
+It is intentionally **non-autonomous**.
+
+- No agents  
+- No ML  
+- No automated decisions  
+
+The focus is **authority, language, boundaries, and accountability**.
+
+---
+
+### How to read the portfolio
+
+The live app is organized as **Apps 1–7**, in deliberate order:
+
+1. **Identity & Authority Anchor** — who owns decisions  
+2. **Governance Glossary** — language before capability  
+3. **Decision Boundaries** — explicit scope limits  
+4. **Stop Authority** — non-bypassable human halt power  
+5. **Escalation & Audit Trail** — inspection over automation  
+6. **Deployment Proof (Cloud Run)** — governance enforced in infrastructure  
+7. **Continuous Aftercare** — governance over time  
+
+> **Summary:**  
+> authority → language → boundaries → stop power → audit → infrastructure → aftercare
+
+---
+
+### Governance glossary (canonical authority)
+
+The portfolio surfaces only **five core terms** to demonstrate language control.
+The full 32-term glossary remains upstream and authoritative.
+
+🔗 https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
+
+This separation is intentional and governance-critical.
+
+---
+
+### Human–AI co-creation
+
+AI tools were used as **bounded co-creators**:
+
+- assisting with synthesis and structure  
+- maintaining language consistency  
+- surfacing options  
+
+AI systems did **not** originate authority, decide scope, or execute actions.
+Human review and acceptance are final.
+
+---
+
+### Why this matters
+
+Many AI failures are governance failures:
+- unclear authority
+- drifting language
+- missing stop conditions
+
+This project treats governance as **operational infrastructure**, not policy text.
+
+---
+
+### Technical notes
+
+- **Hosting:** Google Cloud Run  
+- **Builds:** Google Cloud Build  
+- **Posture:** inspection-only, read-only  
+- **Development:** mobile-first
+
+---
+
+If reviewing this entry, start with **“Portfolio Architecture (Apps 1–7)”** on the live site.
+
+
+---
+
+If you want next (explicit, optional):
+
+Freeze this as v1.0.0
+
+Add a printable auditor PDF
+
+Create a short “judge TL;DR” version
+
+
+Say which.      font-size: 0.9rem;
       color: #555;
     }
   </style>
