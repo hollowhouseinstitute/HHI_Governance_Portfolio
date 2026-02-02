@@ -1,15 +1,14 @@
 # Hollow House Institute — Governance Portfolio
 Non-Authoritative Proof Surface
-This repository is a public portfolio and proof surface only.
+
+This repository is the **public portfolio and proof surface** for the Hollow House Institute (HHI), an AI compliance and governance organization operating on a **governance-before-agents** doctrine.
 It is not an authoritative standard, governance source, license, product, or operational system.
 All executable artifacts contained here are illustrative only, are non-production, and do not confer governance, legal, or operational authority.
 
 Canonical authority resides exclusively upstream.
 
 **Structured Human Intelligence**  
-*Time turns behavior into infrastructure.*
 
-This repository is the **public portfolio and proof surface** for the Hollow House Institute (HHI), an AI compliance and governance organization operating on a **governance-before-agents** doctrine.
 
 ---
 
