@@ -1,4 +1,4 @@
-# Hollow House Institute — Governance Portfolio
+Hu# Hollow House Institute — Governance Portfolio
 Non-Authoritative Proof Surface
 
 This repository is the **public portfolio and proof surface** for the Hollow House Institute (HHI), an AI compliance and governance organization operating on a **governance-before-agents** doctrine.
@@ -51,8 +51,9 @@ If language drifts, governance fails.
 - How AI systems can be evaluated longitudinally rather than episodically
 - How governance can exist *before* autonomous agents or automation layers
 
-This is not a demo app.  
-It is a **governed proof surface**.
+This is not a demo app.
+It is a governed proof surface demonstrating how governance would be applied to systems — not a system itself.
+No runtime behavior in this repository should be interpreted as live, authoritative, or enforceable.
 
 ---
 
