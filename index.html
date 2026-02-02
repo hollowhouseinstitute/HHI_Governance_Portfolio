@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -64,15 +61,6 @@
       padding-left: 1.25rem;
     }
 
-    .label {
-      font-family: monospace;
-      background: var(--panel);
-      border: 1px solid var(--border);
-      padding: 0.25rem 0.5rem;
-      display: inline-block;
-      margin: 1rem 0;
-    }
-
     .panel {
       background: var(--panel);
       border: 1px solid var(--border);
@@ -87,6 +75,148 @@
       padding: 1rem;
       border-radius: 6px;
       margin-top: 1rem;
+    }
+
+    .stop-label {
+      font-weight: bold;
+      color: var(--stop);
+      letter-spacing: 0.05em;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+
+  <script>
+    function stopExecution() {
+      document.getElementById("stopStatus").innerText =
+        "EXECUTION HALTED — Human STOP authority invoked.";
+    }
+  </script>
+</head>
+
+<body>
+<main>
+
+  <header>
+    <p class="muted">
+      Hollow House Institute — AI Governance & Compliance<br>
+      Behavioral Infrastructure · Longitudinal Governance · Language Authority
+    </p>
+
+    <h1>Governance Portfolio</h1>
+  </header>
+
+  <h2>Purpose</h2>
+  <p>
+    This portfolio demonstrates a <strong>governance-first framework</strong>
+    for evaluating AI systems across time rather than snapshot performance.
+    Governance is treated as infrastructure: ordered, dependency-bound,
+    and enforceable.
+  </p>
+
+  <h2>Human–AI Co-Creation Model</h2>
+  <p>
+    AI systems are used as <strong>co-creators</strong> under explicit constraints.
+    They assist with synthesis and structure but do not hold authority.
+  </p>
+
+  <div class="panel">
+    <h3>AI Job Description</h3>
+    <ul>
+      <li>Synthesis and drafting assistance</li>
+      <li>Structural and language consistency checks</li>
+      <li>Option surfacing without outcome selection</li>
+    </ul>
+
+    <h3>Explicit Non-Responsibilities</h3>
+    <ul>
+      <li>No decision authority</li>
+      <li>No scope determination</li>
+      <li>No autonomous execution</li>
+    </ul>
+  </div>
+
+  <h2>Why Framework Order Matters</h2>
+  <p>
+    Governance failures often occur not because controls are missing,
+    but because they are applied out of order.
+  </p>
+
+  <div class="panel">
+    <p class="muted">
+      Authority precedes language.<br>
+      Language precedes boundaries.<br>
+      Boundaries precede execution.<br>
+      Stop power precedes escalation.<br>
+      Infrastructure enforces declared limits.
+    </p>
+  </div>
+
+  <h2>Portfolio Architecture (Apps 1–7)</h2>
+  <ol>
+    <li><strong>Identity & Authority Anchor</strong></li>
+    <li><strong>Governance Glossary</strong></li>
+    <li><strong>Decision Boundaries</strong></li>
+    <li><strong>Stop Authority</strong></li>
+    <li><strong>Escalation & Audit Trail</strong></li>
+    <li><strong>Deployment Proof</strong></li>
+    <li><strong>Continuous Aftercare</strong></li>
+  </ol>
+
+  <h2>Governance Glossary (Canonical Excerpt)</h2>
+  <ul>
+    <li><strong>Human Final Authority</strong> — irreversible human decision power</li>
+    <li><strong>Stop Authority</strong> — non-bypassable human halt</li>
+    <li><strong>Decision Boundary</strong> — explicit scope limits</li>
+    <li><strong>Language Lock</strong> — definitions constrain behavior</li>
+    <li><strong>Longitudinal Governance</strong> — governance across time</li>
+  </ul>
+
+  <p>
+    Full canonical glossary (32 terms):<br>
+    <a href="https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library" target="_blank">
+      https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
+    </a>
+  </p>
+
+  <h2>STOP Authority (Demonstrative)</h2>
+  <p>
+    This control makes human stop power visible.
+    It does not automate enforcement or execution.
+  </p>
+
+  <div class="stop-box">
+    <div class="stop-label">STOP AUTHORITY</div>
+    <button onclick="stopExecution()">STOP</button>
+    <div id="stopStatus"></div>
+  </div>
+
+  <footer>
+    <p>
+      Status: Live · Read-only · Inspection-only<br>
+      Human final authority retained at all times.<br>
+      No automated decisions are performed.
+    </p>
+  </footer>
+
+</main>
+</body>
+</html>      margin-top: 1rem;
     }
 
     .stop-label {
@@ -235,30 +365,6 @@
 
 
 ---
-
-2️⃣ NEW DEV SUBMISSION POST (MARKDOWN)
-
-> Paste directly into DEV. Fully Markdown-compliant.
-
-
-
-## Governance Before Agents: A Live, Inspectable AI Governance Portfolio
-
-**Label:** `dev-tutorial=devnewyear2026`
-
-**Live application:**  
-👉 https://hhi-portfolio-44028571603.us-central1.run.app/
-
-**Source code:**  
-👉 https://github.com/hollowhouseinstitute/HHI_Governance_Portfolio
-
-**Canonical governance glossary:**  
-👉 https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
-
----
-
-### What this is
-
 This project is a **governance-first AI portfolio** demonstrating how systems can be evaluated and constrained **across time**, rather than judged by snapshot performance or demos.
 
 It is intentionally **non-autonomous**.
@@ -291,65 +397,12 @@ The live app is organized as **Apps 1–7**, in deliberate order:
 ### Governance glossary (canonical authority)
 
 The portfolio surfaces only **five core terms** to demonstrate language control.
-The full 32-term glossary remains upstream and authoritative.
-
-🔗 https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
+The full 32-term glossary remains upstream and authoritinstitute/Hollow_House_Standards_Library
 
 This separation is intentional and governance-critical.
 
 ---
-
-### Human–AI co-creation
-
-AI tools were used as **bounded co-creators**:
-
-- assisting with synthesis and structure  
-- maintaining language consistency  
-- surfacing options  
-
-AI systems did **not** originate authority, decide scope, or execute actions.
-Human review and acceptance are final.
-
----
-
-### Why this matters
-
-Many AI failures are governance failures:
-- unclear authority
-- drifting language
-- missing stop conditions
-
-This project treats governance as **operational infrastructure**, not policy text.
-
----
-
-### Technical notes
-
-- **Hosting:** Google Cloud Run  
-- **Builds:** Google Cloud Build  
-- **Posture:** inspection-only, read-only  
-- **Development:** mobile-first
-
----
-
-If reviewing this entry, start with **“Portfolio Architecture (Apps 1–7)”** on the live site.
-
-
----
-
-If you want next (explicit, optional):
-
-Freeze this as v1.0.0
-
-Add a printable auditor PDF
-
-Create a short “judge TL;DR” version
-
-
-Say which.      font-size: 0.9rem;
-      color: #555;
-    }
-  </style>
+, start with **“Portfolio Architecture (Apps 1–7)”** on the live sit
 
   <script>
     function stopExecution() {
