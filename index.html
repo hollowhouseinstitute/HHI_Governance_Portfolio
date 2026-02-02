@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Hollow House Institute — Governance Portfolio</title>
+  <title>HHI Governance App</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <style>
@@ -28,13 +28,7 @@
     main {
       max-width: 900px;
       margin: auto;
-      padding: 2rem 1.25rem 4rem;
-    }
-
-    header {
-      border-bottom: 1px solid var(--border);
-      margin-bottom: 2rem;
-      padding-bottom: 1.5rem;
+      padding: 2rem 1.25rem 3rem;
     }
 
     h1, h2, h3 {
@@ -42,14 +36,14 @@
     }
 
     h1 {
-      font-size: 2.2rem;
-      margin: 0.5rem 0 0;
+      font-size: 2rem;
+      margin-bottom: 0.25rem;
     }
 
     h2 {
-      margin-top: 3rem;
+      margin-top: 2.5rem;
       border-bottom: 1px solid var(--border);
-      padding-bottom: 0.4rem;
+      padding-bottom: 0.3rem;
     }
 
     p.muted {
@@ -64,9 +58,9 @@
     .panel {
       background: var(--panel);
       border: 1px solid var(--border);
-      padding: 1.25rem;
+      padding: 1rem;
       border-radius: 6px;
-      margin-top: 1.25rem;
+      margin-top: 1rem;
     }
 
     .stop-box {
@@ -80,6 +74,129 @@
     .stop-label {
       font-weight: bold;
       color: var(--stop);
+      letter-spacing: 0.05em;
+    }
+
+    button {
+      margin-top: 0.75rem;
+      padding: 0.5rem 1rem;
+      background: var(--stop);
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+
+  <script>
+    function stopExecution() {
+      document.getElementById("stopStatus").innerText =
+        "EXECUTION HALTED — Human STOP authority invoked.";
+    }
+  </script>
+</head>
+
+<body>
+<main>
+
+  <h1>HHI Governance App</h1>
+  <p class="muted">
+    Inspection-only governance surface · No automation · Human final authority
+  </p>
+
+  <h2>Authority Model</h2>
+  <ul>
+    <li>Human final authority</li>
+    <li>Non-autonomous system</li>
+    <li>No execution without explicit human action</li>
+  </ul>
+
+  <h2>Human–AI Co-Creation Boundary</h2>
+  <div class="panel">
+    <h3>AI Role (Job Description)</h3>
+    <ul>
+      <li>Synthesis and drafting assistance</li>
+      <li>Language and structure consistency checks</li>
+      <li>Option surfacing without outcome selection</li>
+    </ul>
+
+    <h3>Explicit Non-Responsibilities</h3>
+    <ul>
+      <li>No decision authority</li>
+      <li>No scope definition</li>
+      <li>No autonomous execution</li>
+    </ul>
+  </div>
+
+  <h2>Framework Order (Apps 1–7)</h2>
+  <ol>
+    <li>Identity & Authority Anchor</li>
+    <li>Governance Glossary</li>
+    <li>Decision Boundaries</li>
+    <li>Stop Authority</li>
+    <li>Escalation & Audit Trail</li>
+    <li>Deployment Proof</li>
+    <li>Continuous Aftercare</li>
+  </ol>
+
+  <div class="panel">
+    <p class="muted">
+      Authority → Language → Boundaries → Stop Power → Audit → Infrastructure → Time
+    </p>
+  </div>
+
+  <h2>Governance Glossary (Excerpt)</h2>
+  <ul>
+    <li><strong>Human Final Authority</strong></li>
+    <li><strong>Stop Authority</strong></li>
+    <li><strong>Decision Boundary</strong></li>
+    <li><strong>Language Lock</strong></li>
+    <li><strong>Longitudinal Governance</strong></li>
+  </ul>
+
+  <p>
+    Full canonical glossary:<br>
+    <a href="https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library" target="_blank">
+      Hollow_House_Standards_Library
+    </a>
+  </p>
+
+  <h2>STOP Authority (Demonstration)</h2>
+  <p>
+    Visible, human-triggered halt. Demonstrative only.
+  </p>
+
+  <div class="stop-box">
+    <div class="stop-label">STOP AUTHORITY</div>
+    <button onclick="stopExecution()">STOP</button>
+    <div id="stopStatus"></div>
+  </div>
+
+  <footer>
+    Status: Live · Read-only · Inspection-only<br>
+    No automated decisions are performed.
+  </footer>
+
+</main>
+</body>
+</html>      color: var(--stop);
       letter-spacing: 0.05em;
     }
 
