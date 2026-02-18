@@ -1,82 +1,58 @@
-Hu# Hollow House Institute — Governance Portfolio
-Non-Authoritative Proof Surface
+# HHI Governance Portfolio
 
-This repository is the **public portfolio and proof surface** for the Hollow House Institute (HHI), an AI compliance and governance organization operating on a **governance-before-agents** doctrine.
-It is not an authoritative standard, governance source, license, product, or operational system.
-All executable artifacts contained here are illustrative only, are non-production, and do not confer governance, legal, or operational authority.
+Role: Demonstration portfolio of Hollow House Institute governance artifacts  
+Authority Tier: Tier 4 (Education & Public Interface)  
+Depends On: Hollow_House_Standards_Library, HHI_GOV_01, HHI_Interaction_Controls  
+Does Not Define: Canonical terminology, governance standards, licensing terms, datasets  
+Governance Status: Public Interface
 
-Canonical authority resides exclusively upstream.
-
-**Structured Human Intelligence**  
-
-
----
-
-## What This Is
-
-A governance-first AI portfolio demonstrating:
-
-- **Longitudinal Behavioral Governance**
-- **Canonical Language Authority**
-- **Audit-ready AI compliance infrastructure**
-- **Governance before agents**
-- **Behavior as the most honest data there is**
-
-This repository exists to show *how governance is operationalized*, not merely described.
+Authority Links:
+- Hollow_House_Standards_Library (canonical definitions authority)
+- HHI_GOV_01 (governance execution standard)
+- HHI_Interaction_Controls (interaction boundaries)
+- SPEC-003 Repository Governance & Authority Order (HHI-SPEC-003)
 
 ---
 
-## Governance Architecture
+## Purpose
 
-This portfolio is downstream of three canonical authorities:
+This repository showcases demonstrations and examples of Hollow House Institute
+governance artifacts.
 
-1. **Hollow House Standards Library**  
-   *Upstream definitions and terminology authority*
-
-2. **HHI_GOV_01**  
-   *Longitudinal Behavioral Governance Standard*
-
-3. **HHI Master License Suite**  
-   *Language use, governance enforcement, and audit constraints*
-
-All terminology used here is governed by the **Hollow House Governance Glossary**.  
-If language drifts, governance fails.
+Its role is illustrative. It exists to show how governance structures operate
+in practice without asserting authority.
 
 ---
 
-## What This Portfolio Demonstrates
+## Scope
 
-- How **behavioral patterns become governance infrastructure over time**
-- Why **definitions precede systems**
-- How AI systems can be evaluated longitudinally rather than episodically
-- How governance can exist *before* autonomous agents or automation layers
+This repository may include:
+- demo configurations
+- example governance flows
+- illustrative artifacts derived from standards
 
-This is not a demo app.
-It is a governed proof surface demonstrating how governance would be applied to systems — not a system itself.
-No runtime behavior in this repository should be interpreted as live, authoritative, or enforceable.
-
----
-
-## AI Tooling Disclosure
-
-Google Gemini was used for:
-- Structured reasoning support
-- Documentation synthesis
-- Governance consistency checks
-
-All outputs are human-governed and audit-defensible.
+This repository does not:
+- define canonical terminology
+- establish governance standards or controls
+- issue audit findings or conclusions
+- provide licensing terms or compliance determinations
 
 ---
 
-## Learn More
+## Authority Boundaries
 
-- Standards & Definitions:  
-  https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
+All demonstrations must defer to upstream standards and governance artifacts.
 
-- Governance Standard:  
-  https://github.com/hollowhouseinstitute/HHI_GOV_01
+This repository must not introduce new terminology or reinterpret existing
+governance controls.
 
 ---
 
-© Hollow House Institute  
-Structured Human Intelligence
+## Status
+
+Tier 4 public-facing portfolio repository.  
+Demonstrative and non-authoritative.
+
+---
+
+End of file.
