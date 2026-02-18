@@ -80,3 +80,9 @@ All outputs are human-governed and audit-defensible.
 
 © Hollow House Institute  
 Structured Human Intelligence
+
+## Governance
+
+This repository inherits governance authority from the **HHI Governance Export — Core**.
+
+All execution, datasets, research, and audits are bound to its standards and constraints.
